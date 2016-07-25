@@ -4,6 +4,6 @@ var phoneNumberFixer = require('phone-number-fixer');
 
 module.exports.handler = function(event, context, cb) {
   return cb(null, {
-    message: 'Go Serverless! Your Lambda function executed successfully!'
+    checked: phoneNumberFixer.check(event.number, event.countryCode)
   });
 };
