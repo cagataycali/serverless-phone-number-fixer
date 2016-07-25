@@ -1,0 +1,15 @@
+{
+  "name": "serverless-phone-number-fixer",
+  "version": "0.0.1",
+  "description": "A Serverless Project and its Serverless Plugin dependencies.",
+  "author": "me",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "dependencies": {
+    "phone-number-fixer": "^1.0.7"
+  }
+}
